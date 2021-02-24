@@ -5,9 +5,9 @@ this.addEventListener('install', function(event) {
         caches.open(CACHE_NAME).then(function(cache) {
             return cache.addAll([
                 './',
-                //
+                //,
                 '../stylesheets/style.css',
-                
+                ,
                 '../images/cv-36.png',
                 '../images/cv-96.png',
                 '../images/cv-194.png',
